@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import 'bootstrap-icons/font/bootstrap-icons.min.css'
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
+import Routing from './Routing';
+import 'animate.css'
+import { createContext, useState } from 'react';
+
+
+export const Store=createContext();
 
 function App() {
+  const [token, setToken]=useState("")
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Store.Provider value={[token, setToken]}>
+    <Header/>
+    <Routing/>
+    <Footer/>
+    </Store.Provider>
+  
     </div>
   );
 }

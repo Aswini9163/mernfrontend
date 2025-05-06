@@ -1,0 +1,66 @@
+.breadcrumb{
+    background-color: blueviolet;
+    padding: 20px 0px;
+}
+
+.breadcrumb h1{
+font-size: 32px;
+text-align: center;
+color: #fff;
+}
+
+.style{
+    width: 600px;
+    height: 500px;
+}
+.anim{
+    width: 400px;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.482);
+    color: #fff;
+    border-radius: 10px;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  
+}
+
+.key{
+    width: 250px;
+    height: 60px;
+    background-color: aqua;
+    color: black;
+   margin-bottom: 20px;
+   text-align: center;
+   border-radius: 30px;
+   padding-top: 20px;
+}
+
+.color{
+    background-color: darkolivegreen;
+    padding: 20px;
+}
+
+.panel{
+    background-color: aquamarine;
+    
+}
+
+.title{
+    background-color: rgba(255, 0, 0, 0.442);
+    width: 400px;
+    color: #fff;
+    border-radius: 35px;
+    padding: 5px 0px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+.titles{
+    color: green;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+  
