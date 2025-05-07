@@ -60,7 +60,7 @@ const DeleteCategory = () => {
                         <td>{data.catname}</td>
                         <td>
                         <div>
-                    <img src={`http://localhost:4000/uploads/${data.filename}`} alt={data.catname} className='img-fluid'/>
+                    <img src={`https://mernbackend-rn59.onrender.com/uploads/${data.filename}`} alt={data.catname} className='img-fluid'/>
                         </div>
                         </td>
                         <td>{data.catdes}</td>
